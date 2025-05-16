@@ -1,12 +1,45 @@
-# React + Vite
+// XSS Hack Challenge App (React) con Estilos usando Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+// ✅ 1. Instalación
+// Clona el repositorio y corre:
+// npm install
+// npm run dev
 
-Currently, two official plugins are available:
+// ✅ 2. Deployment con Netlify
+// npm run build y sube /dist a Netlify manualmente
+// o conecta el repositorio para CI/CD
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+// ✅ 3. README.md generado:
+/*
 
-## Expanding the ESLint configuration
+# 🛡️ XSS Hack Challenge App
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+¡Pon a prueba tus conocimientos sobre ataques XSS! Esta app incluye tres retos prácticos (Reflejado, DOM-based y Persistente) para ayudarte a identificar vulnerabilidades comunes en apps web.
+
+## 🚀 Instrucciones
+
+1. Clona el repositorio
+2. Instala dependencias: `npm install`
+3. Corre la app: `npm run dev`
+4. Completa los 3 retos para ganar 🎉
+
+## 🧪 Retos
+
+- **Fácil**: Inyección de `<script>` reflejado.
+- **Medio**: Parámetro vulnerable en la URL.
+- **Difícil**: Comentarios persistentes simulados.
+
+## ✅ Completado
+
+Cuando logres los tres retos, recibirás una alerta de éxito. ¡Toma una captura y compártela!
+
+---
+
+## 🧰 Tech Stack
+
+- React + Vite
+- Bootstrap 5 para estilos
+- Deploy con Netlify
+*/
+
+// ✅ 4. Estilos y mejora visual con Bootstrap
