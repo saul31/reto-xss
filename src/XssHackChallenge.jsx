@@ -92,7 +92,7 @@ export default function XssHackChallenge() {
       {/* Reto 1 */}
       <div className="card mb-4">
         <div className="card-body">
-          <h5 className="card-title">🔓 Reto 1: XSS Reflejado</h5>
+          <h5 className="card-title">🔓 Reto 1: XSS Persistente</h5>
           <input
             className="form-control mb-2"
             value={input1}
